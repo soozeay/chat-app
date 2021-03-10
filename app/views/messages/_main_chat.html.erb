@@ -6,7 +6,7 @@
   </div>
   <div class="right-header">
     <div class="header-button">
-      <a href="#">チャットを終了する</a>
+      <%= lint_to 'チャットを終了する' ,room_path(@room), method: :delete %>
     </div>
   </div>
 </div>
